@@ -66,29 +66,4 @@ The initial analysis revealed several important insights:
 *   matplotlib
 *   seaborn
 
-## How to Run
 
-1.  Clone this repository:
-    ```bash
-    git clone <repository_url>
-    ```
-2.  Navigate to the project directory.
-3.  Ensure you have the required libraries installed. You can install them using pip:
-    ```bash
-    pip install pandas numpy matplotlib seaborn
-    ```
-4.  Place the `Vehicle_Insurance.csv` file in the location expected by the notebook (e.g., in a `content` subdirectory or the same directory as the notebook).
-5.  Open the Jupyter Notebook (`insurance_analysis.ipynb`) in a Jupyter environment (like JupyterLab or Google Colab) and run the cells.
-
-## Future Work
-
-*   Perform more in-depth univariate and bivariate analysis, especially for categorical features ('Gender', 'Region_Code', 'Vehicle_Age', 'Vehicle_Damage', 'Policy_Sales_Channel').
-*   Address the class imbalance issue (e.g., using techniques like oversampling, undersampling, or choosing appropriate evaluation metrics).
-*   Develop predictive models (e.g., Logistic Regression, Random Forest, Gradient Boosting) to predict customer response.
-*   Evaluate model performance considering the class imbalance.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. (Remember to add a LICENSE file to your repository).
-
----
